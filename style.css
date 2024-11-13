@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Red Hat Display";
+    src: url(Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+*{
+    font-family: "Red Hat Display";
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 16px;
+}
+body{
+    display: block;
+    background-color: hsl(225, 100%, 94%);
+}
+.background-image{
+    width: 100%;
+    height: 350px;
+    margin-top: -100px;
+    position: absolute;
+    z-index: 1
+}
+.contaner{
+    position: relative;
+    /* أو absolute إذا كان يناسب التخطيط */
+    z-index: 10;
+    /* قيمة أعلى من الخلفية */
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 570px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height:580px;
+    margin-top:100px;
+}
+.main-img{
+    width: 400px;
+    border-radius: 15px 15px 0px 0px;
+}
+.contant{
+    background-color: white;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    margin-top: 10px;
+    text-align: center;
+}
+.big-P{
+    margin-top: 20px;
+    margin-left: 60px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    width: 280px;
+}
+.music-bar{
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    width: 310px;
+    height: 80px;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 45px;
+}
+.music-bar img{
+    margin-left: 20px;
+    margin-top: 17.5px;
+    width: 45px;
+    height: 45px;
+}
+.pay{
+    margin-top: 20px;
+}
+.pay p{
+    margin-left: 18px;
+}
+a{
+    margin-left:65.45px;
+    font-family:"Red Hat Display" ;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 30px;
+}
+a:hover{
+    color: hsl(245, 98%, 80%);
+    text-decoration: underline;
+    cursor: pointer;
+}
+input{
+    box-shadow: 0px 5px 15px hsl(245, 98%, 80%);
+    font-size:small;
+    border-radius: 10px;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    width: 310px;
+    height: 40px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+input:hover{
+    background-color:hsl(245, 98%, 80%);
+    cursor: pointer;
+}
+.footer p{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bolder
+}
+.footer p:hover{
+    color: hsl(245, 98%, 80%);
+    cursor: pointer;
+}
+.bold{
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+}
+.doller{
+    color:hsl(224, 23%, 55%) ;
+}
